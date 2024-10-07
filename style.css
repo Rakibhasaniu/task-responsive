@@ -1,16 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Add this to ensure consistent sizing across elements */
+    box-sizing: border-box;
 }
 
 /* Navigation Bar */
 nav {
     display: flex;
-    justify-content: space-evenly; /* Change to space-evenly */
+    justify-content: space-evenly; 
     align-items: center;
     padding: 1rem;
-    background-color: #333;
+    background-color: #2d3748;
     color: #fff;
 }
 
@@ -20,7 +20,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 100%; /* Ensure it takes the full width */
+    width: 100%; 
 }
 
 
@@ -114,6 +114,7 @@ nav a {
     font-size: 16px;
     margin-bottom: 10px;
 }
+
 
 /* Media Queries for Cards */
 @media (max-width: 768px) {
